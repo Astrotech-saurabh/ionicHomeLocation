@@ -1,0 +1,7 @@
+{
+  "name": "IonicGeo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
