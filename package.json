@@ -13,6 +13,7 @@
   },
   "private": true,
   "dependencies": {
+    "@agm/core": "^3.0.0-beta.0",
     "@angular/common": "~12.0.1",
     "@angular/core": "~12.0.1",
     "@angular/forms": "~12.0.1",
@@ -24,7 +25,12 @@
     "@capacitor/haptics": "1.0.2",
     "@capacitor/keyboard": "1.0.2",
     "@capacitor/status-bar": "1.0.2",
+    "@ionic-native/android-permissions": "^5.34.0",
+    "@ionic-native/core": "^5.34.0",
+    "@ionic-native/location-accuracy": "^5.34.0",
     "@ionic/angular": "^5.5.2",
+    "cordova-plugin-android-permissions": "^1.1.2",
+    "cordova-plugin-request-location-accuracy": "^2.3.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
@@ -41,6 +47,7 @@
     "@angular/language-service": "~12.0.1",
     "@capacitor/cli": "3.1.1",
     "@ionic/angular-toolkit": "^4.0.0",
+    "@types/googlemaps": "3.39.12",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
